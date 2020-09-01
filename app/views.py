@@ -14,3 +14,12 @@ class IndexView(View):
             'work_data': work_data
         })
 
+
+class DetailView(View):
+    def get(self, request, *args, **kwargs):
+        work_data = Work.objects.get(id=self.kwargs['pk'])
+        return render(request, 'app/detail.html', {
+            'work_data': work_data
+        })
+
+        

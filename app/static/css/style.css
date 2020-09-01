@@ -91,3 +91,14 @@ main {
   opacity: 1;
 }
 
+/* detail */
+.link-color {
+  color: #EE6C4D;
+}
+
+.link-color:hover {
+  color: #c56c55;
+  text-decoration: none;
+}
+
+
