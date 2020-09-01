@@ -1,1 +1,1 @@
-# django-portfoliostudy
+# django-portfolio-study
